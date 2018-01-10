@@ -3,7 +3,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements
-  [thing_one, thing_two]
+  ["thing_one", "thing_two"]
 end
 
 def first_element (array)
@@ -27,5 +27,5 @@ def last_element_with_array_methods (array)
 end
 
 def length_of_array (array)
-  array.size
+  array.count
 end
